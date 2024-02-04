@@ -15,10 +15,10 @@ func Hello(name string) (string, error) {
 }
 
 func randomMessage() string {
-	messages := []string {
+	formats := []string {
 		"Hi, %v. Welcome!!",
 		"Great to see you, %v!",
 		"Hail, %v! Well met!",
 	}
-	return messages[rand.Intn(len(messages))]
+	return formats[rand.Intn(len(formats))]
 }
