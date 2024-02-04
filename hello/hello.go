@@ -22,3 +22,5 @@ func main() {
 		fmt.Println(name, message)
 	}
 }
+
+// https://go.dev/doc/tutorial/add-a-test
